@@ -1,6 +1,6 @@
 # statistics_calculations
 
-This repository demonstrates Python code for calculating key statistical measures and performing basic data analysis. It also includes examples of **Linear Regression** and **Polynomial Regression** to explore relationships between variables, make predictions, and highlight potential limitations.
+This repository demonstrates Python code for calculating key statistical measures and performing basic data analysis. It also includes examples of **Linear Regression**, **Polynomial Regression**, and **Multiple Regression** to explore relationships between variables, make predictions, and highlight potential limitations.
 
 ---
 
@@ -32,6 +32,18 @@ This repository demonstrates Python code for calculating key statistical measure
 - **Example 1: Realistic Data**: Demonstrates polynomial regression on car tollbooth data.
 - **Example 2: Prediction**: Predicts the speed of a car at a specific point using the fitted model.
 - **Example 3: Bad Fit**: Showcases a scenario where polynomial regression is not suitable (random data).
+### 4. Multiple Regression (New)
+
+- **Multiple Regression**: Uses more than one independent variable to predict a dependent variable.
+- **CO2 Emission Example**: Predicts CO2 emissions of cars based on their `Weight` and `Volume`.
+- **Coefficient Analysis**: Explains the relationship between independent variables and the predicted value.
+- **Scenarios**:
+  - Predicts CO2 emissions for a car with a weight of 2300 kg and volume of 1300 cc.
+  - Demonstrates the impact of increasing weight by 1000 kg on CO2 emissions.
+- Saved visualizations:
+  - `multiple_regression_prediction.png`: Visualization of predicted CO2 for sample inputs.
+  - `multiple_regression_coefficients.png`: Coefficient analysis plot.
+
 
 ---
 
@@ -56,7 +68,7 @@ A box plot is used to visualize the data distribution:- **Box Plot of Speed Data
 
 ![Bad Fit Plot](https://github.com/coder-akram-khan/statistics_calculations/blob/main/linear_regression_bad_fit.png?raw=true)
 
-### Polynomial Regression (New)
+### Polynomial Regression 
 
 **Polynomial Regression: Tollbooth Data**
 
@@ -69,8 +81,32 @@ A box plot is used to visualize the data distribution:- **Box Plot of Speed Data
 
 ![Bad Fit Plot](https://github.com/coder-akram-khan/statistics_calculations/blob/main/badfitpolynomial.png?raw=true)
 
----
-New additions:
+### Multiple Regression (New)
+**CO2 Emission Prediction: Weight vs CO2**  
+![Weight vs CO2](https://github.com/coder-akram-khan/statistics_calculations/blob/main/volume_vs_co2.png?raw=true)
 
-    Added a section for Polynomial Regression Demonstrations.
-    Included descriptions for the new functionalities.
+**CO2 Emission Prediction: Volume vs CO2**  
+![Volume vs CO2](https://github.com/coder-akram-khan/statistics_calculations/blob/main/volume_vs_co2.png?raw=true)
+
+### Combined Analysis (New)
+
+**3D Visualization: Weight, Volume, and CO2 Emissions**  
+![3D Weight, Volume vs CO2](https://github.com/coder-akram-khan/statistics_calculations/blob/main/3d_weight_volume_vs_co2.png?raw=true)
+
+
+---
+## Usage
+
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/coder-akram-khan/statistics_calculations.git
+   cd statistics_calculations
+2. Install required libraries:  
+   ```bash
+   pip install -r requirements.txt
+3. Run individual scripts for demonstrations:  
+   ```bash
+    python statistical_calculations.py
+    python linear_regression.py
+    python polynomial_regression.py
+    python multiple_regression.py
