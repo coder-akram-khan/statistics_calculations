@@ -106,7 +106,7 @@ A box plot is used to visualize the data distribution:- **Box Plot of Speed Data
    pip install -r requirements.txt
 3. Run individual scripts for demonstrations:  
    ```bash
-    python statistical_calculations.py
-    python linear_regression.py
-    python polynomial_regression.py
-    python multiple_regression.py
+    python stat.py
+    python LinearRegression.py
+    python PolynomialRegression.py
+    python multipleregression.py
