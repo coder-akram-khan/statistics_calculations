@@ -2,10 +2,7 @@
 
 This repository demonstrates Python code for calculating key statistical measures and performing basic data analysis. It also includes examples of **Linear Regression**, **Polynomial Regression**, and **Multiple Regression** to explore relationships between variables, make predictions, and highlight potential limitations.
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="https://github.com/coder-akram-khan/statistics_calculations/blob/main/statcalc.jpeg?raw=true" width="335">
-    <img src="https://github.com/coder-akram-khan/statistics_calculations/blob/main/ml.jpg?raw=true" alt="Collab" width="500">
-</div>
+![ml](https://github.com/coder-akram-khan/statistics_calculations/blob/main/ml.jpg?raw=true")
 
 ---
 
