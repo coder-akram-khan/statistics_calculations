@@ -45,6 +45,11 @@ This repository demonstrates Python code for calculating key statistical measure
 - Saved visualizations:
   - `multiple_regression_prediction.png`: Visualization of predicted CO2 for sample inputs.
   - `multiple_regression_coefficients.png`: Coefficient analysis plot.
+### 5. Scaling and Standardization (New)
+
+- Demonstrates the importance of scaling features when working with data of different units and ranges.
+- Uses StandardScaler to standardize Weight and Volume columns from the `cars.csv` dataset.
+- Includes a prediction of CO2 emissions for a car with specified features after scaling.
 
 
 ---
@@ -83,19 +88,29 @@ A box plot is used to visualize the data distribution:- **Box Plot of Speed Data
 
 ![Bad Fit Plot](https://github.com/coder-akram-khan/statistics_calculations/blob/main/badfitpolynomial.png?raw=true)
 
-### Multiple Regression (New)
+### Multiple Regression 
 **CO2 Emission Prediction: Weight vs CO2**  
 ![Weight vs CO2](https://github.com/coder-akram-khan/statistics_calculations/blob/main/volume_vs_co2.png?raw=true)
 
 **CO2 Emission Prediction: Volume vs CO2**  
 ![Volume vs CO2](https://github.com/coder-akram-khan/statistics_calculations/blob/main/volume_vs_co2.png?raw=true)
 
-### Combined Analysis (New)
+### Combined Analysis
 
 **3D Visualization: Weight, Volume, and CO2 Emissions**  
 ![3D Weight, Volume vs CO2](https://github.com/coder-akram-khan/statistics_calculations/blob/main/3d_weight_volume_vs_co2.png?raw=true)
 
+### ML Scaling (New)
 
+**Before Scaling: Weight vs Volume**
+   ![Before Scaling](https://github.com/coder-akram-khan/statistics_calculations/blob/main/before_scaling_weight_vs_volume.png?raw=true)
+
+**After Scaling: Weight vs Volume**
+   ![After Scaling](https://github.com/coder-akram-khan/statistics_calculations/blob/main/after_scaling_weight_vs_volume.png?raw=true)
+
+**Predicted CO2 Emission after Scaling**
+   ![Predicted CO2](https://github.com/coder-akram-khan/statistics_calculations/blob/main/predicted_co2_after_scaling.png?raw=true)
+       
 ---
 ## Usage
 
@@ -112,3 +127,4 @@ A box plot is used to visualize the data distribution:- **Box Plot of Speed Data
     python LinearRegression.py
     python PolynomialRegression.py
     python multipleregression.py
+   python ML_Scale.py
