@@ -30,6 +30,7 @@ statistics_calculations/
 ├── Polynomial_Regression.py
 ├── Multiple_Regression.py
 ├── ML_Scale.py
+├── Train_Test_ML.py
 ```
 
 ## Key Features
@@ -76,6 +77,19 @@ statistics_calculations/
 - Demonstrates the importance of scaling features when working with data of different units and ranges.
 - Uses StandardScaler to standardize Weight and Volume columns from the `cars.csv` dataset.
 - Includes a prediction of CO2 emissions for a car with specified features after scaling.
+
+### 6. Train-Test Demonstrations
+
+- **Dataset**: Simulated customer behavior data (`datasets/`).
+- **Visualizations**:
+  - `behaviour_plot.png`: Minutes before purchase vs. Money spent.
+  - `train_behaviour_plot.png`: Training data distribution.
+  - `test_behaviour_plot.png`: Testing data distribution.
+  - `train_behaviour_regression_plot.png`: Polynomial regression fit on training data.
+- **Analysis**:
+  - Demonstrated train-test splitting (80% training, 20% testing).
+  - Performed polynomial regression and evaluated R-squared scores for training and testing data.
+  - Predicted customer spending based on time spent in the shop.
 
 
 ---
@@ -154,3 +168,4 @@ A box plot is used to visualize the data distribution:- **Box Plot of Speed Data
     python PolynomialRegression.py
     python multipleregression.py
     python ML_Scale.py
+    python Train_Test_ML.py
