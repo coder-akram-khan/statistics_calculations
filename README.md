@@ -31,6 +31,7 @@ statistics_calculations/
 ├── Multiple_Regression.py
 ├── ML_Scale.py
 ├── Train_Test_ML.py
+├── ConfusionMatrix.py
 ```
 
 ## Key Features
@@ -90,6 +91,26 @@ statistics_calculations/
   - Demonstrated train-test splitting (80% training, 20% testing).
   - Performed polynomial regression and evaluated R-squared scores for training and testing data.
   - Predicted customer spending based on time spent in the shop.
+### 7.Confusion Matrix Implementation
+
+- **What is a Confusion Matrix?**:
+  - A Confusion Matrix is a table used to evaluate classification models by comparing actual vs. predicted results.
+  - **Implementation Overview**:
+  - **Confusion Matrix Visualization**: Displays the confusion matrix for classification evaluation.  
+  - **Metrics Included**:  
+    - **Accuracy**: Measures how often the model is correct.  
+    - **Precision**: Of the positive predictions, how many are actually positive?  
+    - **Recall (Sensitivity)**: Of all the actual positive cases, what percentage were predicted correctly?  
+    - **Specificity**: How well does the model predict negative cases?  
+    - **F1-Score**: Harmonic mean of Precision and Recall. 
+- **Visualizations**:
+  - Confusion Matrix visualization using `ConfusionMatrixDisplay`.  
+  - Precision-Recall balance visual representation.  
+  - Sensitivity vs. Specificity comparison.
+- **Key Insights**:
+  - A higher precision means fewer false positives.  
+  - A higher recall means fewer false negatives.  
+  - A balanced F1-Score indicates a well-performing model.
 
 
 ---
@@ -169,3 +190,4 @@ A box plot is used to visualize the data distribution:- **Box Plot of Speed Data
     python multipleregression.py
     python ML_Scale.py
     python Train_Test_ML.py
+    python ConfusionMatrix.py
